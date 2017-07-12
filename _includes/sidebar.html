@@ -7,7 +7,8 @@
     <img src="/logo.png" id="logo" alt="Blog logo"/>
     {% endif %}
   </a>
-  <h2>Hi. I'm <a href="/">{{ site.data.theme.name }}</a>.</h2>
+
+  <h3>Hi. I'm <a href="/">{{ site.data.theme.name }}</a>.</h3>
 
   <div id="links">
     <p> <a href="about.html">About me</a> </p>
@@ -15,8 +16,14 @@
   </div>
 
   <div id="contact info">
-    <p> lillian.zhang.10@gmail.com </p>
-    <p> (209) 676-1965 </p>
+    <p> <small> 
+      lillian.zhang.10@gmail.com <br>
+      (209) 676-1965 
+    </small> </p>
+  </div>
+
+  <div id="social">
+    {% include social.html %}
   </div>
 
 </nav>
