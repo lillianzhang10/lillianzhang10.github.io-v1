@@ -2,9 +2,10 @@
 h3 {
 	font-family: georgia;
 //	font-weight: bold;
-	color: highlight-color;
+	color: highlight_color;
 }
 
 h4 {
 	font-weight: bold;
+	font-size: 100%;
 }
