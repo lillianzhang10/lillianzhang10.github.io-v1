@@ -1,0 +1,8 @@
+
+h3 {
+	font-family: georgia;
+//	font-weight: bold;
+	color: {{ site.data.theme.highlight_color }};
+}
+
+
